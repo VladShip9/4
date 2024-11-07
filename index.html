@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Entering bank data</title>
+</head>
+<body>
+    <header class="header">
+        <div class="item-menu">
+            <img src="./assets/bank.jpg" alt="bank">
+            <div class="tab">
+                <a href="#">Translation history.</a>
+                <div class="open-tab">
+                    <p>Please wait...</p>
+                </div>
+            </div>
+            <a href="#">Contribution.</a>
+            <a href="#">Bank account.</a>
+            <a href="#">Settings</a>
+        </div>
+        <div class="login">
+            <img src="./assets/user.jpg" alt="user">
+            <p>Log in to your account</p>
+        </div>
+    </header>
+    <div class="cart">
+        <form>
+            <div class="card_number">
+                <label for="card-number" >CARD NUMBER</label>
+                <input type="number" name="card-number" class="number"><p>/</p><input type="number" name="card-number" class="number"><p>/</p><input type="number" name="card-number" class="number"><p>/</p><input type="number" name="card-number" class="number">
+            </div>
+            <div class="valid">
+                <label for="data">VALID THRU (MM/YY)</label>
+                <input type="date" name="data" class="date"><p>/</p><input type="date" name="data" class="date">
+            </div>
+            <div class="name">
+                <label for="name">CARD HOLDER NAME</label>
+                <input type="text" name="name" class="NEAM">
+            </div>
+            <button class="button">Continue</button>
+        </form>
+    </div>
+</body>
+</html>
